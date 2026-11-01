@@ -1,13 +1,45 @@
+
 {
   "id": "deadlands-5e-ru",
   "title": "Deadlands 5e RU",
-  "description": "Experimental Weird West toolkit for dnd5e: revolver cylinder, wounds, fate chips and d20 checks.",
+  "description": "Русскоязычный модуль мистического вестерна для D&D 5e: револьверы, ранения, фишки судьбы и проверки d20.",
   "version": "0.1.0",
-  "authors": [{"name": "Deadlands 5e RU Community Prototype"}],
-  "compatibility": {"minimum": "13", "verified": "13"},
-  "relationships": {"systems": [{"id": "dnd5e", "type": "system", "compatibility": {"minimum": "5.1.10", "verified": "5.1.10"}}]},
-  "esmodules": ["scripts/main.js"],
-  "styles": ["styles/module.css"],
-  "languages": [{"lang": "ru", "name": "Русский", "path": "lang/ru.json"}],
-  "socket": false
+  "authors": [
+    {
+      "name": "Daniel Glukhov"
+    }
+  ],
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {
+          "minimum": "5.1.10",
+          "verified": "5.1.10"
+        }
+      }
+    ]
+  },
+  "esmodules": [
+    "scripts/main.js"
+  ],
+  "styles": [
+    "styles/module.css"
+  ],
+  "languages": [
+    {
+      "lang": "ru",
+      "name": "Русский",
+      "path": "lang/ru.json"
+    }
+  ],
+  "socket": false,
+  "url": "https://github.com/danielglukhov/deadlands-5e-ru",
+  "manifest": "https://github.com/danielglukhov/deadlands-5e-ru/releases/latest/download/module.json",
+  "download": "https://github.com/danielglukhov/deadlands-5e-ru/releases/latest/download/deadlands-5e-ru.zip"
 }
