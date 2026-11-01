@@ -1,0 +1,11 @@
+.dl-open{flex:0 0 auto;width:auto!important;min-width:90px;margin:0 4px;padding:2px 8px;font-size:12px;background:#63442d;color:#fff;border:1px solid #a88149;border-radius:4px;cursor:pointer}
+.dl-panel{font-family:inherit;line-height:1.45;padding:4px 2px;overflow:auto;max-height:65vh}
+.dl-panel h3{margin:12px 0 7px;border-bottom:1px solid #9b774c;padding-bottom:4px}
+.dl-note{font-size:12px;opacity:.75}
+.dl-line{display:flex;justify-content:space-between;align-items:center;padding:4px 2px;border-bottom:1px solid #7773;gap:10px}
+.dl-line button{width:30px;min-width:30px;padding:2px}
+.dl-line strong{display:inline-block;min-width:24px;text-align:center}
+.dl-cylinder{display:flex;gap:9px;justify-content:center;padding:12px}
+.dl-cylinder span{display:grid;place-items:center;border:2px solid #9d7b47;width:34px;height:34px;border-radius:50%;color:#999;font-size:24px}
+.dl-cylinder span.loaded{background:#72532e;color:#f7d59a}
+.dl-buttons{display:flex;gap:6px;flex-wrap:wrap}.dl-buttons button{flex:1;min-width:110px}
